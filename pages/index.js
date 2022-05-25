@@ -52,7 +52,6 @@ const App = () => {
         <header className="header-container">
           <p className="header"> 😳 Buildspace Emoji Store 😈</p>
           <p className="sub-text">The only emoji store that accepts shitcoins</p>
-          console.log("owner check...?")
           {!isOwner && (
             <button className="create-product-button" onClick={() => setCreating(!creating)}>
               {creating ? "Close" : "Create Product"}
